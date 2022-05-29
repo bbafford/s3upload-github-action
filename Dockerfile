@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache-dir awscli
+RUN apk add  awscli
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
